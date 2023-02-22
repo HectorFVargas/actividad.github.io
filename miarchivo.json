@@ -1,0 +1,88 @@
+{
+  "equipoSuperheroes" : "Vengadores",
+  "ciudad" : "Nueva York",
+  "añoFormado" : 2016,
+  "baseSecreta" : "Torre Stark",
+  "activo" : true,
+  "miembros" : 
+  [
+    {
+      "nombre" : "Iron Man",
+      "edad" : 39,
+      "identidadSecreta" : "Tony Stark",
+      "poderes" : 
+      [
+        "Armadura con IA",
+        "Superfuerza, durabilidad y resistencia por armadura",
+        "Vuelo Supersonico",
+        "Repulsores de energia",
+        "Misiles proyectiles"
+      ]
+    },
+    {
+      "nombre" : "Thor, Dios del trueno",
+      "edad" : 100,
+      "identidadSecreta" : "Thor",
+      "poderes" : 
+      [
+        "Inmortalidad",
+        "Manipulacion de rayos",
+        "Martillo Mjolnir",
+        "Martillo Rompetormentas"
+      ]
+    },
+    {
+      "nombre" : "Capitan America",
+      "edad" : 100,
+      "identidadSecreta" : "Stive Roggers",
+      "poderes" : 
+      [
+        "Super fuerza",
+        "Rapidez",
+        "Lucha en combate fisico",
+        "Escudo en aleacion de vibranio"
+      ]
+    },
+    {
+      "nombre" : "Balck Widow",
+      "edad" : 35,
+      "identidadSecreta" : "Natalia Alianovna Romanova",
+      "poderes" : 
+      [
+        "Experta táctica, combatiente cuerpo a cuerpo y agente secreta",
+        "Envejecimiento lento y sistema inmunológico mejorado",
+        "Tiradora experta y dominio de varias otras armas",
+        "Equipo a través de guanteletes: gancho, eliminar gas,taser, explosivos, gránulos de gas lacrimógeno"
+      ]
+    },
+    {
+      "nombre" : "Hulk",
+      "edad" : 40,
+      "identidadSecreta" : "Bruce Banner",
+      "poderes" : 
+      [
+        "Súper fuerza",
+        "Súper velocidad",
+        "Súper resistencia",
+        "Súper salto",
+        "Invulnerabilidad",
+        "Regeneración",
+        "Longevidad",
+        "Factor de curación acelerado"
+      ]
+    },
+    { 
+      "nombre" : "Ojo de Halcón",
+      "edad" : 42,
+      "identidadSecreta" : "Clinton Francis (Clint Barton)",
+      "poderes" : 
+      [
+        "Arquero con una puntería superperfecta",
+        "Acróbata experto",
+        "Combate cuerpo a cuerpo",
+        "Arcos fabricados por industrias Stark, uno corto, otro largo y otro compuesto",
+        "Flechas multiusos"
+      ]
+    }
+  ]
+}

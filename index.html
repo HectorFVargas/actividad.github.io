@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Our superheroes</title>
+
+    <link href= "../Lab1Hector/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+      <header>
+
+      </header>
+
+      <section>
+
+      </section>
+
+    <script>
+
+    async function populate() 
+    {
+
+      const requestURL = '../Lab1Hector/miarchivo.json';
+      const request = new Request(requestURL);
+
+      const response = await fetch(request);
+      const superHeroes = await response.json();
+
+      populateHeader(superHeroes);
+      populateHeroes(superHeroes);
+
+    }
+
+    function populateHeader(obj) 
+    {
+      const header = document.querySelector('header');
+      const myH1 = document.createElement('h1');
+      myH1.textContent = obj.equipoSuperheroes;
+      header.appendChild(myH1);
+
+      const myPara = document.createElement('p');
+      const myPara4 = document.createElement('p');
+      const myPara5 = document.createElement('p');
+      myPara.textContent = `Ciudad: ${obj.ciudad}`;
+      myPara4.textContent = `Año Formado: ${obj.añoFormado}`;
+      myPara5.textContent = `Base Secreta: ${obj.baseSecreta}`;
+      header.appendChild(myPara);
+      header.appendChild(myPara4);
+      header.appendChild(myPara5);
+    }
+
+    function populateHeroes(obj) 
+    {
+      const section = document.querySelector('section');
+      const heroes = obj.miembros;
+
+      for (const hero of heroes) 
+      {
+        const myArticle = document.createElement('article');
+        const myH2 = document.createElement('h2');
+        const myPara1 = document.createElement('p');
+        const myPara2 = document.createElement('p');
+        const myPara3 = document.createElement('p');
+        const myList = document.createElement('ul');
+
+        myH2.textContent = hero.nombre;
+        myPara1.textContent = `Identidad Secreta: ${hero.identidadSecreta}`;
+        myPara2.textContent = `Edad: ${hero.edad}`;
+        myPara3.textContent = 'poderes:';
+
+        const superPoderes = hero.poderes;
+        for (const poderes of superPoderes) 
+        {
+          const listItem = document.createElement('li');
+          listItem.textContent = poderes;
+          myList.appendChild(listItem);
+        }
+
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myList);
+
+        section.appendChild(myArticle);
+      }
+    }
+
+    populate();
+
+    </script>
+  </body>
+</html>
