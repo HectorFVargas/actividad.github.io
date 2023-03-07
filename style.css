@@ -55,3 +55,42 @@ h2 {
   color: rgb(0, 38, 255);
 }
 
+.IronMan{
+  width: 150px;
+  margin-left: 90px;
+  border-radius: 50px 50% 50% 50%;
+
+}
+
+.Thor{
+  width: 150px;
+  margin-left: 90px;
+  border-radius: 50px 50% 50% 50%;
+}
+.BlackWidow{
+  width: 150px;
+  margin-left: 90px;
+  border-radius: 50px 50% 50% 50%;
+}
+.CapitanAmerica{
+  width: 150px;
+  margin-left: 90px;
+  border-radius: 50px 50% 50% 50%;
+}
+.Hulk{
+  width: 150px;
+  margin-left: 90px;
+  border-radius: 50px 50% 50% 50%;
+}
+.OjoDeHalcon{
+  width: 150px;
+  margin-left: 90px;
+  border-radius: 50px 50% 50% 50%;
+}
+.a{
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
