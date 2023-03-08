@@ -91,7 +91,7 @@ h2 {
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
-  text-align: center;
+  margin: center;
   background-color: cornflowerblue;
   padding: 15px 25px;
   text-decoration: none;
