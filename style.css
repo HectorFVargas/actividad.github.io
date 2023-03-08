@@ -87,7 +87,7 @@ h2 {
   margin-left: 90px;
   border-radius: 50px 50% 50% 50%;
 }
-.a{
+.button{
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
@@ -98,11 +98,9 @@ h2 {
   cursor: pointer;
 
 }
-a:link{
-  color:darkorange;
-}
-a:hover{
-  background-color: brown;
+
+button:hover{
+  background-color: rgb(231, 209, 11);
 }
 
 
