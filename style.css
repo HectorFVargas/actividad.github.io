@@ -89,11 +89,9 @@ h2 {
 }
 .button{
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
-  
   background-color: gold;
   font-size: 1.3rem;
   font-weight: bold;
-  
   padding: center;
   text-decoration: none;
   cursor: pointer;
