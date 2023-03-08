@@ -91,6 +91,7 @@ h2 {
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
+  display: block;
   margin-right: auto;
   margin-left: auto;
   background-color: cornflowerblue;
