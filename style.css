@@ -92,5 +92,17 @@ h2 {
   font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
+  background-color: cornflowerblue;
+  padding: 15px 25px;
+  text-decoration: none;
+  cursor: pointer;
+
 }
+a:link{
+  color:darkorange;
+}
+a:hover{
+  background-color: brown;
+}
+
 
