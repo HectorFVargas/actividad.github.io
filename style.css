@@ -89,12 +89,14 @@ h2 {
 }
 .button{
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  color:aliceblue;
+  background-color: rgb(7, 54, 141);
   font-size: 1.3rem;
   font-weight: bold;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-color: cornflowerblue;
+  
   padding: 15px 25px;
   text-decoration: none;
   cursor: pointer;
@@ -102,7 +104,7 @@ h2 {
 }
 
 button:hover{
-  background-color: rgb(231, 209, 11);
+  background-color: rgb(11, 150, 231);
 }
 
 
