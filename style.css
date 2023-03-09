@@ -95,6 +95,9 @@ button{
   padding: center;
   text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
+  border-radius: 16px;
+  box-shadow: 0 0 5pb black;
 
 }
 
